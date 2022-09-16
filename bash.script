@@ -1,0 +1,109 @@
+SECONDS=0
+echo "started!"
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:00:03-GraphSAGE_32_1 --time_lim 10800 --mol_len 4 > GraphSAGE_outputs/GraphSAGE_32_1_mol_len_4.txt
+echo "progress: 1/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:09:07-GraphSAGE_16_2 --time_lim 10800 --mol_len 4 > GraphSAGE_outputs/GraphSAGE_16_2_mol_len_4.txt
+echo "progress: 2/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:12:46-GraphSAGE_32_2 --time_lim 10800 --mol_len 4 > GraphSAGE_outputs/GraphSAGE_32_2_mol_len_4.txt
+echo "progress: 3/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:16:04-GraphSAGE_64_2 --time_lim 10800 --mol_len 4 > GraphSAGE_outputs/GraphSAGE_64_2_mol_len_4.txt
+echo "progress: 4/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:18:55-GraphSAGE_16_3 --time_lim 10800 --mol_len 4 > GraphSAGE_outputs/GraphSAGE_16_3_mol_len_4.txt
+echo "progress: 5/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:26:00-GraphSAGE_32_3 --time_lim 10800 --mol_len 4 > GraphSAGE_outputs/GraphSAGE_32_3_mol_len_4.txt
+echo "progress: 6/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:29:19-GraphSAGE_64_3 --time_lim 10800 --mol_len 4 > GraphSAGE_outputs/GraphSAGE_64_3_mol_len_4.txt
+echo "progress: 7/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:00:03-GraphSAGE_32_1 --time_lim 10800 --mol_len 6 > GraphSAGE_outputs/GraphSAGE_32_1_mol_len_6.txt
+echo "progress: 8/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:09:07-GraphSAGE_16_2 --time_lim 10800 --mol_len 6 > GraphSAGE_outputs/GraphSAGE_16_2_mol_len_6.txt
+echo "progress: 9/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:12:46-GraphSAGE_32_2 --time_lim 10800 --mol_len 6 > GraphSAGE_outputs/GraphSAGE_32_2_mol_len_6.txt
+echo "progress: 10/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:16:04-GraphSAGE_64_2 --time_lim 10800 --mol_len 6 > GraphSAGE_outputs/GraphSAGE_64_2_mol_len_6.txt
+echo "progress: 11/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:18:55-GraphSAGE_16_3 --time_lim 10800 --mol_len 6 > GraphSAGE_outputs/GraphSAGE_16_3_mol_len_6.txt
+echo "progress: 12/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:26:00-GraphSAGE_32_3 --time_lim 10800 --mol_len 6 > GraphSAGE_outputs/GraphSAGE_32_3_mol_len_6.txt
+echo "progress: 13/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:29:19-GraphSAGE_64_3 --time_lim 10800 --mol_len 6 > GraphSAGE_outputs/GraphSAGE_64_3_mol_len_6.txt
+echo "progress: 14/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:00:03-GraphSAGE_32_1 --time_lim 10800 --mol_len 8 > GraphSAGE_outputs/GraphSAGE_32_1_mol_len_8.txt
+echo "progress: 15/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:09:07-GraphSAGE_16_2 --time_lim 10800 --mol_len 8 > GraphSAGE_outputs/GraphSAGE_16_2_mol_len_8.txt
+echo "progress: 16/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:12:46-GraphSAGE_32_2 --time_lim 10800 --mol_len 8 > GraphSAGE_outputs/GraphSAGE_32_2_mol_len_8.txt
+echo "progress: 17/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:16:04-GraphSAGE_64_2 --time_lim 10800 --mol_len 8 > GraphSAGE_outputs/GraphSAGE_64_2_mol_len_8.txt
+echo "progress: 18/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:18:55-GraphSAGE_16_3 --time_lim 10800 --mol_len 8 > GraphSAGE_outputs/GraphSAGE_16_3_mol_len_8.txt
+echo "progress: 19/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:26:00-GraphSAGE_32_3 --time_lim 10800 --mol_len 8 > GraphSAGE_outputs/GraphSAGE_32_3_mol_len_8.txt
+echo "progress: 20/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP.py --location 2022-09-16_21:29:19-GraphSAGE_64_3 --time_lim 10800 --mol_len 8 > GraphSAGE_outputs/GraphSAGE_64_3_mol_len_8.txt
+echo "progress: 21/21 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
