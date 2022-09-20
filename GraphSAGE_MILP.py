@@ -200,6 +200,7 @@ def make_model_optimize_and_save(bt_procedures=[bt_lrr_conv],
     
     # create model
     m = gp.Model("GNN")
+    m.Params.timeLimit = time_lim
     m.update()
 
     # input constraints

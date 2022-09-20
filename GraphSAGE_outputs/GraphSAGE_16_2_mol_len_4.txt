@@ -1,0 +1,71 @@
+model_name='GraphSAGE_16_2'
+gnn='GraphSAG'
+neurons='_1'
+layers='2'
+state_dict.keys()=odict_keys(['layers.0.lin_l.weight', 'layers.0.lin_r.weight', 'layers.1.lin_l.weight', 'layers.1.lin_r.weight', 'fc11.weight', 'fc11.bias', 'fc12.weight', 'fc12.bias'])
+mol_dict=['atom_type', 'atom_type', 'atom_type', 'atom_type', 'neighbours', 'neighbours', 'neighbours', 'neighbours', 'neighbours', 'hydrogen', 'hydrogen', 'hydrogen', 'hydrogen', 'hydrogen']
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-18
+these are the shape of the weights: (2, 2)
+Warning: constraint name "min constr" has a space
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 4681 rows, 1849 columns and 23909 nonzeros
+Model fingerprint: 0xdd5d9c33
+Variable types: 1345 continuous, 504 integer (504 binary)
+Coefficient statistics:
+  Matrix range     [2e-04, 9e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 9e+01]
+  RHS range        [8e-04, 7e+01]
+Presolve removed 1927 rows and 301 columns
+Presolve time: 0.11s
+Presolved: 2754 rows, 1548 columns, 13231 nonzeros
+Variable types: 1217 continuous, 331 integer (331 binary)
+
+Root relaxation: objective 1.539553e+01, 2381 iterations, 0.20 seconds (0.24 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   15.39553    0  203          -   15.39553      -     -    0s
+     0     0   14.31270    0  240          -   14.31270      -     -    0s
+H    0     0                       1.8389801   14.31270   678%     -    0s
+H    0     0                       2.1658411   13.25283   512%     -    0s
+     0     0   13.25283    0  235    2.16584   13.25283   512%     -    0s
+     0     0   13.24676    0  236    2.16584   13.24676   512%     -    0s
+     0     0   13.24669    0  236    2.16584   13.24669   512%     -    0s
+     0     0   12.57861    0  231    2.16584   12.57861   481%     -    1s
+     0     0   12.57861    0  235    2.16584   12.57861   481%     -    1s
+     0     0   12.57861    0  230    2.16584   12.57861   481%     -    1s
+     0     0   12.57861    0  233    2.16584   12.57861   481%     -    1s
+     0     0   11.61807    0  253    2.16584   11.61807   436%     -    2s
+     0     0   11.61807    0  258    2.16584   11.61807   436%     -    2s
+     0     0   11.61807    0  258    2.16584   11.61807   436%     -    2s
+     0     0   11.61807    0  260    2.16584   11.61807   436%     -    2s
+     0     0   11.61807    0  260    2.16584   11.61807   436%     -    2s
+     0     0   10.01295    0  260    2.16584   10.01295   362%     -    3s
+     0     0    9.91649    0  260    2.16584    9.91649   358%     -    3s
+     0     2    9.91649    0  260    2.16584    9.91649   358%     -    3s
+    13    12    8.90823    4  193    2.16584    9.91649   358%   814    5s
+  5328   463    2.18329   15   55    2.16584    3.27062  51.0%  37.6   10s
+
+Cutting planes:
+  Gomory: 12
+  Cover: 514
+  Implied bound: 282
+  Clique: 7
+  MIR: 674
+  Flow cover: 61
+  GUB cover: 7
+  Zero half: 11
+  RLT: 88
+  Relax-and-lift: 17
+
+Explored 7113 nodes (266251 simplex iterations) in 11.44 seconds (15.31 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 2.16584 1.83898 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.165841062824e+00, best bound 2.165841062824e+00, gap 0.0000%
