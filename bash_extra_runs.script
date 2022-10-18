@@ -1,0 +1,29 @@
+SECONDS=0
+echo "started!"
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP_extra_runs.py --location 2022-09-16_21:18:03-GraphSAGE_16_3 --time_lim 36000 --mol_len 4 > GraphSAGE_outputs/2022-09-16_21:18:03-GraphSAGE_16_3_mol_len_4.txt
+echo "progress: 1/5 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP_extra_runs.py --location 2022-09-16_21:20:47-GraphSAGE_16_3 --time_lim 36000 --mol_len 4 > GraphSAGE_outputs/2022-09-16_21:20:47-GraphSAGE_16_3_mol_len_4.txt
+echo "progress: 2/5 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP_extra_runs.py --location 2022-09-16_21:18:34-GraphSAGE_16_3 --time_lim 36000 --mol_len 4 > GraphSAGE_outputs/2022-09-16_21:18:34-GraphSAGE_16_3_mol_len_4.txt
+echo "progress: 3/5 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP_extra_runs.py --location 2022-09-16_21:19:45-GraphSAGE_16_3 --time_lim 36000 --mol_len 4 > GraphSAGE_outputs/2022-09-16_21:19:45-GraphSAGE_16_3_mol_len_4.txt
+echo "progress: 4/5 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"
+python GraphSAGE_MILP_extra_runs.py --location 2022-09-16_21:20:37-GraphSAGE_16_3 --time_lim 36000 --mol_len 4 > GraphSAGE_outputs/2022-09-16_21:20:37-GraphSAGE_16_3_mol_len_4.txt
+echo "progress: 5/5 after: $SECONDS s"
+SECONDS=0
+now=$(date +"%T")
+echo "Started at : $now"

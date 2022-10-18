@@ -20,8 +20,11 @@ import graphconv.optimization.nn_milp_builder as gc_builder
 
 
 parser = argparse.ArgumentParser()
+# trained_models//GraphSAGE_64_3.tar
 
-parser.add_argument('--location', default='2022-09-16_13:45:09-GraphSAGE_64_1')
+# parser.add_argument('--location', default='2022-09-16_13:45:09-GraphSAGE_64_1')
+parser.add_argument('--location', default='2022-09-16_21:28:10-GraphSAGE_64_3')
+
 parser.add_argument('--time_lim', default=1000)
 parser.add_argument('--mol_len', default=4)
 
